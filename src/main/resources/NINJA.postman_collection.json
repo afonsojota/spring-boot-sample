@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "a5c2a9d9-c31d-4e75-accf-ecf78c611bf5",
+		"name": "DOJO-AFONSO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NINJA",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/ninja",
+					"protocol": "https",
+					"host": [
+						"localhost:8080"
+					],
+					"path": [
+						"ninja"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
