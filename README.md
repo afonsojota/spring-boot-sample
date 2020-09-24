@@ -36,6 +36,6 @@ Your app will run on: http://localhost:8080/
 # Api  Documentation  
 
  - Swagger:
-   [http://localhost:8080/swagger-ui.html#/laboratory-controller](http://localhost:8080/swagger-ui.html#/dojo-controller)
+   [http://localhost:8080/swagger-ui.html#/dojo-controller](http://localhost:8080/swagger-ui.html#/dojo-controller)
  - Postman: *src/main/resources/DOJO.postman_collection.json*
  - POST: [http://localhost:8080/ninja](http://localhost:8080/ninja)
