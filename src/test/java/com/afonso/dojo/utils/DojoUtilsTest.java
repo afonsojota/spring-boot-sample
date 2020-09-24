@@ -24,8 +24,8 @@ public class DojoUtilsTest {
 
     @Test
     public void should_reverse_char_array(){
-        char[][] input = {{'A','T','G','C'},{'T','A','G','C'}};
-        char[][] expected = {{'C','G','T','A'},{'C','G','A','T'}};
+        char[][] input = {{'X','Y','Z'},{'A','B','C'}};
+        char[][] expected = {{'Z','Y','A'},{'C','B','A'}};
 
         char[][] result = utils.reverseArray(input);
 
@@ -35,21 +35,20 @@ public class DojoUtilsTest {
 
     @Test
     public void should_transpose_char_array(){
-        char[][] input = {{'A','T','G','C'},{'T','A','G','C'}};
-        char[][] expected = {{'A','T'},{'T','A'},{'G','G'},{'C','C'}};
+        char[][] input = {{'A','C','E'},{'B','D','F'}};
+        char[][] expected = {{'A','B'},{'C','D'},{'E','F'}};
 
         char[][] result = utils.transposeCharArray(input);
 
         Assertions.assertArrayEquals(result[0],expected[0]);
         Assertions.assertArrayEquals(result[1],expected[1]);
         Assertions.assertArrayEquals(result[2],expected[2]);
-        Assertions.assertArrayEquals(result[3],expected[3]);
     }
 
     @Test
     public void should_convert_string_to_char_array(){
-        String[] input = {"ATGC","TAGC"};
-        char[][] expected = {{'A','T','G','C'},{'T','A','G','C'}};
+        String[] input = {"ABCD","EFGH"};
+        char[][] expected = {{'A','B','C','D'},{'E','F','G','H'}};
 
         char[][] result = utils.stringToMatrixCharArray(input);
 
